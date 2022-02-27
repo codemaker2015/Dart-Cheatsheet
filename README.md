@@ -1,0 +1,36 @@
+# Dart cheat sheet
+
+This project starts from **Hello World** until the end of the **Dart** :)
+
+Online compiler : [dartpad](https://dartpad.dev/)
+
+### Simple example
+
+- **Hello World** in **Dart**
+
+```dart
+void main() {
+    // Just print it!
+    print("Hello World");
+}
+```
+
+- **Variables** in **Dart**
+
+```dart
+enum Os { BigSur, Mojave, Sierra, Catalina }
+
+void main() {
+    String name = "Vishnu Sivan";
+    int age = 27;
+    double height = 1.5;
+    bool male = true;
+
+    var field = "Programming";
+    final grade = "A";
+    const home = "Kerala";
+
+    dynamic food = "Rice";
+    food = "Egg";
+}
+```
